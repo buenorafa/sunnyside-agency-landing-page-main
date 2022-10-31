@@ -1,0 +1,14 @@
+@import "./global.scss";
+
+header {
+  // O bg vai ficar transparente
+  background-color: blue;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+  }
+}
