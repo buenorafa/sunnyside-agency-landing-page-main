@@ -3,12 +3,24 @@
 header {
   // O bg vai ficar transparente
   background-color: transparent;
+  color: $white;
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
   nav ul {
     list-style: none;
     display: flex;
-    gap: 1em;
+    gap: 1.5em;
+    a {
+      padding: 0.5em 1em;
+      border-radius: 20px;
+      transition: 0.5s;
+      &:hover {
+        font-family: "Fraunces", serif;
+        font-size: 0.8em;
+        text-transform: uppercase;
+        background-color: $white-onhover;
+      }
+    }
   }
 }

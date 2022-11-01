@@ -1,9 +1,19 @@
+@import "./global.scss";
+
 #home {
   color: $white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  h1 {
+    font-size: 2em;
+    letter-spacing: 0.25em;
+    margin: 100px 0;
+  }
+  img.arrow-down {
+    width: 4%;
+  }
   #home-background {
     width: 100vw;
     position: absolute;

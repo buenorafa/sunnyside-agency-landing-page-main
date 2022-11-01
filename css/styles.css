@@ -2,13 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
 * {
   padding: 0;
   margin: 0;
 }
 
 body {
-  font-size: 18px;
   font-family: "Barlow", sans-serif;
 }
 
@@ -17,12 +18,12 @@ a {
   color: inherit;
 }
 
-.upper-case {
-  text-transform: uppercase;
-}
-
 .title {
   font-family: "Fraunces", serif;
+}
+
+.upper-case {
+  text-transform: uppercase;
 }
 
 * {
@@ -31,7 +32,6 @@ a {
 }
 
 body {
-  font-size: 18px;
   font-family: "Barlow", sans-serif;
 }
 
@@ -40,16 +40,17 @@ a {
   color: inherit;
 }
 
-.upper-case {
-  text-transform: uppercase;
-}
-
 .title {
   font-family: "Fraunces", serif;
+}
+
+.upper-case {
+  text-transform: uppercase;
 }
 
 header {
   background-color: transparent;
+  color: hsl(0deg, 0%, 100%);
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
@@ -57,7 +58,40 @@ header {
 header nav ul {
   list-style: none;
   display: flex;
-  gap: 1em;
+  gap: 1.5em;
+}
+header nav ul a {
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+header nav ul a:hover {
+  font-family: "Fraunces", serif;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  background-color: hsla(0deg, 0%, 100%, 0.25);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  font-family: "Fraunces", serif;
+}
+
+.upper-case {
+  text-transform: uppercase;
 }
 
 #home {
@@ -66,6 +100,14 @@ header nav ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#home h1 {
+  font-size: 2em;
+  letter-spacing: 0.25em;
+  margin: 100px 0;
+}
+#home img.arrow-down {
+  width: 4%;
 }
 #home #home-background {
   width: 100vw;
