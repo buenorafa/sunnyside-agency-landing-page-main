@@ -12,27 +12,29 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <script
+      src="https://kit.fontawesome.com/e3d7bf636a.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Sunnyside</title>
   </head>
   <body>
     <header>
-      <img src="./images/logo.svg" alt="Logo da Sunnyside" />
-      <nav>
-        <ul>
+      <a href="">
+        <img src="./images/logo.svg" alt="Logo da Sunnyside" />
+      </a>
+      <nav id="nav">
+        <button class="fa-solid fa-bars" id="nav-btn"></button>
+        <ul id="nav-menu">
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a class="contact-style" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <main>
+    <!-- <main>
       <section id="home">
-        <img
-          id="home-background"
-          src="./images/desktop/image-header.jpg"
-          alt="Imagem de uma laranja cortada em um fundo azul"
-        />
         <h1 class="title upper-case">We are creatives</h1>
         <img
           class="arrow-down"
@@ -40,6 +42,39 @@
           alt="Seta para baixo"
         />
       </section>
-    </main>
+      <section id="services">
+        <div class="service-card">
+          <div class="service-card-description">
+            <h2>Transform your brand</h2>
+            <p>
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your clients through compelling visuals
+              that do most of the marketing for you.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <img
+            src="./images/desktop/image-transform.jpg"
+            alt="Uma fotografia de um ovo de galinha em um fundo amarelo"
+          />
+        </div>
+        <div class="services-card">
+          <div class="service-card-description">
+            <h2>Stand out to the right audience</h2>
+            <p>
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we’ll build and
+              extend your brand in digital places.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <img
+            src="./images/desktop/image-stand-out.jpg"
+            alt="Uma fotografia de uma taça de cor salmão em um fundo de mesma cor"
+          />
+        </div>
+      </section>
+    </main> -->
+    <script src="./js/nav_menu.js"></script>
   </body>
 </html>

@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
   h1 {
     font-size: 2em;
     letter-spacing: 0.25em;
@@ -20,5 +21,17 @@
     top: 0;
     left: 0;
     z-index: -1;
+    margin-bottom: 100px;
   }
 }
+// h1 {
+//   max-width: 85%;
+//   font-size: 2.5em;
+//   font-weight: 900;
+//   letter-spacing: 0.25em;
+//   margin: 100px 0;
+//   text-align: center;
+// }
+// img.arrow-down {
+//   width: 4%;
+// }
