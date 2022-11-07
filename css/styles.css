@@ -12,6 +12,7 @@
 
 body {
   font-family: "Barlow", sans-serif;
+  color: hsl(212deg, 27%, 19%);
 }
 
 a {
@@ -35,6 +36,7 @@ a {
 
 body {
   font-family: "Barlow", sans-serif;
+  color: hsl(212deg, 27%, 19%);
 }
 
 a {
@@ -60,9 +62,11 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+header #logo {
+  width: 14rem;
+}
 header nav {
-  padding: 1em 0.5em;
-  flex-direction: row;
+  padding: 1em;
 }
 header nav #nav-btn {
   display: none;
@@ -91,7 +95,7 @@ header nav a.contact-style:hover {
   background-color: hsla(0deg, 0%, 100%, 0.25);
   color: hsl(0deg, 0%, 100%);
 }
-@media (max-width: 650px) {
+@media (max-width: 700px) {
   header {
     height: 3.7rem;
   }
@@ -157,6 +161,7 @@ header nav a.contact-style:hover {
 
 body {
   font-family: "Barlow", sans-serif;
+  color: hsl(212deg, 27%, 19%);
 }
 
 a {
@@ -178,12 +183,11 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 100px;
   height: calc(100vh - 3.7rem);
 }
 #home .home-bg {
   position: absolute;
-  top: 0;
+  top: 3px;
   left: 0;
   z-index: -1;
   width: 100vw;
@@ -211,7 +215,10 @@ a {
   z-index: -1;
   margin-bottom: 100px;
 }
-@media (max-width: 650px) {
+@media (max-width: 700px) {
+  #home h1 {
+    font-size: 2em;
+  }
   #home .home-bg {
     background-image: url(../images/mobile/image-header.jpg);
   }
@@ -224,6 +231,89 @@ a {
   to {
     transform: translateY(10%);
   }
+}
+.service-card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  text-align: center;
+  max-width: 100%;
+  padding: 1em;
+}
+.service-card-description h2 {
+  max-width: 75%;
+  text-align: left;
+  font-size: 2em;
+  font-weight: bold;
+}
+.service-card-description p {
+  color: hsl(232deg, 10%, 55%);
+  font-weight: 500;
+  max-width: 75%;
+  line-height: 1.5em;
+  text-align: left;
+}
+.service-card-description a.yellow {
+  padding: 0.2em 0.5em;
+  transition: 0.3s;
+  border-bottom: 2px solid hsla(51deg, 100%, 49%, 0.5);
+}
+.service-card-description a.yellow:hover {
+  background-color: hsla(51deg, 100%, 49%, 0.5);
+  border-bottom: 2px solid hsl(51deg, 100%, 49%);
+}
+.service-card-description a.soft-red {
+  padding: 0.2em 0.5em;
+  transition: 0.3s;
+  border-bottom: 2px solid hsla(7deg, 99%, 70%, 0.5);
+}
+.service-card-description a.soft-red:hover {
+  background-color: hsla(7deg, 99%, 70%, 0.5);
+  border-bottom: 2px solid hsl(7deg, 99%, 70%);
+}
+
+#services {
+  display: grid;
+  max-width: 100vw;
+  height: 100vh;
+  grid-template-areas: "description_1 img_1" "img_2 description_2";
+}
+#services .description_1 {
+  grid-area: description_1;
+}
+#services .description_2 {
+  grid-area: description_2;
+}
+#services .img_1 {
+  grid-area: img_1;
+  background-image: url(../images/desktop/image-transform.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#services .img_2 {
+  grid-area: img_2;
+  background-image: url(../images/desktop/image-stand-out.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 700px) {
+  #services {
+    height: 200vh;
+    grid-template-areas: "img_1" "description_1 " "img_2" "description_2";
+  }
+}
+#services .service-card-description {
+  padding: 0;
+}
+#services .img_1 {
+  background-image: url(../images/mobile/image-transform.jpg);
+}
+#services .img_2 {
+  background-image: url(../images/mobile/image-stand-out.jpg);
 }
 
 /*# sourceMappingURL=styles.css.map */

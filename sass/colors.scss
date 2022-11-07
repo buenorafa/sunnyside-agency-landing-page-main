@@ -1,7 +1,9 @@
 // Primary Colors:
 $soft-blue: rgb(61, 192, 255);
 $soft-red: hsl(7, 99%, 70%);
+$transparent-soft-red: hsla(7, 99%, 70%, 0.5);
 $yellow: hsl(51, 100%, 49%);
+$transparent-yellow: hsla(51, 100%, 49%, 0.5);
 // Graphic Design Text
 $dark-desaturated-cyan: hsl(167, 40%, 24%);
 // Photography text
@@ -18,4 +20,4 @@ $white: hsl(0, 0%, 100%);
 $white-onhover: hsla(0, 0%, 100%, 25%);
 
 // Screen Breakpoints
-$mobile: 650px;
+$mobile: 700px;

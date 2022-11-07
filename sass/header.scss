@@ -9,14 +9,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  // VOLTAR AQUI
+  #logo {
+    width: 14rem;
+  }
   // Barra de Navegação
   nav {
+    padding: 1em;
     #nav-btn {
       display: none;
     }
-    padding: 1em 0.5em;
-    flex-direction: row;
-    // justify-content: space-around;
     ul {
       list-style: none;
       display: flex;
@@ -48,6 +50,7 @@ header {
   @media (max-width: $mobile) {
     height: 3.7rem;
     nav {
+      // Botão do menu Mobile
       #nav-btn {
         display: block;
         border: none;
@@ -56,6 +59,7 @@ header {
         font-size: 1.5rem;
         cursor: pointer;
       }
+      // Barra de Nav Mobile
       #nav-menu {
         list-style: none;
         text-align: center;
@@ -89,7 +93,7 @@ header {
             color: $very-dark-desaturated-blue;
           }
         }
-        // Estilo do Botão de Contato
+        // Estilo do link de Contato
         a.contact-style {
           font-size: 1rem;
           font-family: $fraunces;

@@ -1,6 +1,7 @@
 @import "./colors.scss";
 
 @import "./fonts.scss";
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -8,6 +9,7 @@
 }
 body {
   font-family: $barlow;
+  color: $very-dark-desaturated-blue;
 }
 a {
   text-decoration: none;

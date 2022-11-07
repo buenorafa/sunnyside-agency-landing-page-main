@@ -6,11 +6,11 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 100px;
+  // margin-bottom: 100px;
   height: calc(100vh - 3.7rem);
   .home-bg {
     position: absolute;
-    top: 0;
+    top: 3px;
     left: 0;
     z-index: -1;
     width: 100vw;
@@ -39,6 +39,9 @@
     margin-bottom: 100px;
   }
   @media (max-width: $mobile) {
+    h1 {
+      font-size: 2em;
+    }
     .home-bg {
       background-image: url(../images/mobile/image-header.jpg);
     }

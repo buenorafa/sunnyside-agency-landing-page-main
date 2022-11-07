@@ -1,12 +1,90 @@
-.service-card {
-  width: 100vw;
-  height: 100vh;
-  .service-card-description {
-    width: 50%;
-    display: flex;
+// Card de Descrição
+.service-card-description {
+  // border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  text-align: center;
+  max-width: 100%;
+  padding: 1em;
+  h2 {
+    max-width: 75%;
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
   }
-  .service-card-image {
-    width: 50%;
-    background-color: red;
+  p {
+    color: $dark-grayish-blue;
+    font-weight: 500;
+    max-width: 75%;
+    line-height: 1.5em;
+    text-align: left;
+  }
+  a.yellow {
+    padding: 0.2em 0.5em;
+    transition: 0.3s;
+    border-bottom: 2px solid $transparent-yellow;
+    &:hover {
+      background-color: $transparent-yellow;
+      border-bottom: 2px solid $yellow;
+    }
+  }
+  a.soft-red {
+    padding: 0.2em 0.5em;
+    transition: 0.3s;
+    border-bottom: 2px solid $transparent-soft-red;
+    &:hover {
+      background-color: $transparent-soft-red;
+      border-bottom: 2px solid $soft-red;
+    }
+  }
+}
+#services {
+  // Grid da Seção
+  display: grid;
+  max-width: 100vw;
+  height: 100vh;
+  grid-template-areas:
+    "description_1 img_1"
+    "img_2 description_2";
+
+  .description_1 {
+    grid-area: description_1;
+  }
+  .description_2 {
+    grid-area: description_2;
+  }
+  .img_1 {
+    grid-area: img_1;
+    background-image: url(../images/desktop/image-transform.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .img_2 {
+    grid-area: img_2;
+    background-image: url(../images/desktop/image-stand-out.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  @media (max-width: $mobile) {
+    height: 200vh;
+    grid-template-areas:
+      "img_1"
+      "description_1 "
+      "img_2"
+      "description_2";
+  }
+  .service-card-description {
+    padding: 0;
+  }
+  .img_1 {
+    background-image: url(../images/mobile/image-transform.jpg);
+  }
+  .img_2 {
+    background-image: url(../images/mobile/image-stand-out.jpg);
   }
 }
