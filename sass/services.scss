@@ -77,14 +77,15 @@
       "description_1 "
       "img_2"
       "description_2";
-  }
-  .service-card-description {
-    padding: 0;
-  }
-  .img_1 {
-    background-image: url(../images/mobile/image-transform.jpg);
-  }
-  .img_2 {
-    background-image: url(../images/mobile/image-stand-out.jpg);
+    .service-card-description {
+      padding: 0;
+      gap: 1.5em;
+    }
+    .img_1 {
+      background-image: url(../images/mobile/image-transform.jpg);
+    }
+    .img_2 {
+      background-image: url(../images/mobile/image-stand-out.jpg);
+    }
   }
 }

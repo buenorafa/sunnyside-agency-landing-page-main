@@ -305,15 +305,16 @@ a {
     height: 200vh;
     grid-template-areas: "img_1" "description_1 " "img_2" "description_2";
   }
-}
-#services .service-card-description {
-  padding: 0;
-}
-#services .img_1 {
-  background-image: url(../images/mobile/image-transform.jpg);
-}
-#services .img_2 {
-  background-image: url(../images/mobile/image-stand-out.jpg);
+  #services .service-card-description {
+    padding: 0;
+    gap: 1.5em;
+  }
+  #services .img_1 {
+    background-image: url(../images/mobile/image-transform.jpg);
+  }
+  #services .img_2 {
+    background-image: url(../images/mobile/image-stand-out.jpg);
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
