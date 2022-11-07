@@ -1,0 +1,12 @@
+.service-card {
+  width: 100vw;
+  height: 100vh;
+  .service-card-description {
+    width: 50%;
+    display: flex;
+  }
+  .service-card-image {
+    width: 50%;
+    background-color: red;
+  }
+}

@@ -45,7 +45,7 @@ header {
     }
   }
 
-  @media (max-width: 650px) {
+  @media (max-width: $mobile) {
     height: 3.7rem;
     nav {
       #nav-btn {
