@@ -20,7 +20,7 @@ Para maior facilidade no trabalho colaborativo, utilizamos o SASS, que não é m
 
 Nada muito avançado, apenas fizemos manipulação através do DOM para fazer o famoso menu responsivo.
 
-## Projeto de Linguagens de Marcação
+## Projeto de Linguagens de Marcação - IFPB
 
 Discentes:
 
