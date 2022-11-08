@@ -1,41 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  font-family: "Barlow", sans-serif;
-  color: hsl(212deg, 27%, 19%);
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.title {
-  font-family: "Fraunces", serif;
-}
-
-.upper-case {
-  text-transform: uppercase;
-}
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -155,30 +128,6 @@ header nav a.contact-style:hover {
     background-color: rgb(61, 192, 255);
     color: hsl(0deg, 0%, 100%);
   }
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  font-family: "Barlow", sans-serif;
-  color: hsl(212deg, 27%, 19%);
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.title {
-  font-family: "Fraunces", serif;
-}
-
-.upper-case {
-  text-transform: uppercase;
 }
 
 #home {
@@ -378,22 +327,6 @@ a {
   }
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  font-family: "Barlow", sans-serif;
-  color: hsl(212deg, 27%, 19%);
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .title {
   font-family: "Fraunces", serif;
 }
@@ -419,7 +352,6 @@ a {
 .clients,
 .client {
   display: flex;
-  flex-direction: column;
 }
 
 .clients {
@@ -429,6 +361,8 @@ a {
 
 .client {
   gap: 3.1rem;
+  flex-direction: column;
+  align-items: center;
 }
 
 .client img {
@@ -444,6 +378,7 @@ a {
   color: hsl(198deg, 62%, 26%);
   line-height: 1.8rem;
   font-weight: 600;
+  max-width: min(75%, 350px);
 }
 
 .author-block {
@@ -467,28 +402,27 @@ a {
   color: hsl(210deg, 4%, 67%);
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+@media (max-width: 700px) {
+  .clients {
+    gap: 4rem;
+    flex-direction: column;
+  }
+  .feedback {
+    max-width: 50%;
+  }
 }
 
-body {
-  font-family: "Barlow", sans-serif;
-  color: hsl(212deg, 27%, 19%);
+#video {
+  background-color: hsl(7deg, 99%, 70%);
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
 }
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.title {
-  font-family: "Fraunces", serif;
-}
-
-.upper-case {
-  text-transform: uppercase;
+#video h2 {
+  font-size: 2rem;
 }
 
 footer {
@@ -512,9 +446,12 @@ footer ul {
   gap: 3.1rem;
 }
 
-.footer-menu a {
+footer a {
   color: hsl(168deg, 34%, 41%);
-  font-family: "Barlow", sans-serif;
+  transition: 0.4s;
+}
+footer a:hover {
+  color: hsl(0deg, 0%, 100%);
 }
 
 .social-media {
@@ -522,6 +459,7 @@ footer ul {
   flex-direction: row;
   gap: 1.5rem;
   margin-top: 2.3rem;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

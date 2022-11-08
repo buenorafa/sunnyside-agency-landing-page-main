@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <link rel="stylesheet" href="./css/styles.min.css" />
     <link
       rel="icon"
       type="image/png"
@@ -146,9 +147,19 @@
       </article>
       <section id="photos"></section>
 
-      <section id="video"><iframe src="https://player.vimeo.com/video/345878838?h=a99dca7f55&color=ffffff" width="640" height="267" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      <section id="video">
+        <h2 class="title">Our latest release</h2>
+        <iframe
+          id="video-frame"
+          src="https://player.vimeo.com/video/345878838?h=a99dca7f55&color=ffffff"
+          frameborder="0"
+          width="450"
+          height="250"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </section>
-      
+
       <footer id="footer">
         <img class="logo" src="images/logo.svg" alt="" />
 
@@ -159,22 +170,28 @@
         </ul>
         <ul class="social-media">
           <li>
-            <a href="/"
-              ><img src="images/icon-facebook.svg" alt="facebook"
-            /></a>
+            <a href="#">
+              <!-- <img src="images/icon-facebook.svg" alt="facebook" /> -->
+              <i class="fa-brands fa-square-facebook"></i>
+            </a>
           </li>
           <li>
-            <a href="/"
-              ><img src="images/icon-instagram.svg" alt="instagram"
-            /></a>
+            <a href="#">
+              <!-- <img src="images/icon-instagram.svg" alt="instagram" /> -->
+              <i class="fa-brands fa-instagram"></i>
+            </a>
           </li>
           <li>
-            <a href="/"><img src="images/icon-twitter.svg" alt="twitter" /></a>
+            <a href="#">
+              <!-- <img src="images/icon-twitter.svg" alt="twitter" /> -->
+              <i class="fa-brands fa-twitter"></i>
+            </a>
           </li>
           <li>
-            <a href="/"
-              ><img src="images/icon-pinterest.svg" alt="pinterest"
-            /></a>
+            <a href="#">
+              <!-- <img src="images/icon-pinterest.svg" alt="pinterest" /> -->
+              <i class="fa-brands fa-pinterest"></i>
+            </a>
           </li>
         </ul>
       </footer>

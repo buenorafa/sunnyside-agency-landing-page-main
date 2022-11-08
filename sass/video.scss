@@ -1,8 +1,14 @@
 @import "./global.scss";
 
 #video {
+  background-color: $soft-red;
+  padding: 5rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5rem;
+  gap: 2.5rem;
+  h2 {
+    font-size: 2rem;
+  }
 }
