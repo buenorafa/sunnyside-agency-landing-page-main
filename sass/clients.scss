@@ -1,7 +1,6 @@
 @import "./global.scss";
 
 #testemonials {
-  // border-radius: 50%;
   display: flex;
   flex-direction: column;
   gap: 4.5rem;
@@ -15,9 +14,7 @@
 }
 .clients,
 .client {
-  // border: 2px solid red;
   display: flex;
-  flex-direction: column;
 }
 .clients {
   gap: 2rem;
@@ -25,6 +22,8 @@
 }
 .client {
   gap: 3.1rem;
+  flex-direction: column;
+  align-items: center;
 }
 .client img {
   border-radius: 50%;
@@ -38,6 +37,7 @@
   color: $dark-blue;
   line-height: 1.8rem;
   font-weight: 600;
+  max-width: min(75%,350px);
 }
 .author-block {
   display: flex;
@@ -58,4 +58,11 @@
   color: $grayish-blue;
 }
 @media (max-width: $mobile) {
+  .clients{
+    gap: 4rem;
+    flex-direction: column;
+  }
+  .feedback {
+    max-width: 50%;
+  }
 }
