@@ -1,0 +1,31 @@
+@import "./global.scss";
+
+footer{
+  background-color: #8ed0c4;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 4rem 1.2rem;
+  min-height: 30vh;
+  text-align: center;
+  align-items: center;
+}
+footer ul{
+  list-style: none;
+}
+
+.footer-menu{
+  display: flex;
+  flex-direction: row;
+  gap: 3.1rem;
+}
+.footer-menu a{
+  color: hsl(168, 34%, 41%);
+  font-family: $barlow;
+}
+.social-media{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  margin-top: 2.3rem;
+}

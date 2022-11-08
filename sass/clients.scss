@@ -1,0 +1,61 @@
+@import "./global.scss";
+
+#testemonials {
+  // border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+#testemonials h3 {
+  font-family: $fraunces;
+  color: $dark-blue;
+  letter-spacing: 5px;
+}
+.clients,
+.client {
+  // border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+}
+.clients {
+  gap: 2rem;
+  flex-direction: row;
+}
+.client {
+  gap: 3.1rem;
+}
+.client img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto;
+}
+.feedback {
+  font-family: $barlow;
+  color: $dark-blue;
+  line-height: 1.8rem;
+  font-weight: 600;
+}
+.author-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding-top: 0.7rem;
+  text-align: center;
+  align-items: center;
+}
+.name {
+  font-family: $fraunces;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.job {
+  font-family: $barlow;
+  font-size: 0.8rem;
+  color: $grayish-blue;
+}
+@media (max-width: $mobile) {
+}

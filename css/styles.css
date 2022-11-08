@@ -4,6 +4,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -315,6 +319,152 @@ a {
   #services .img_2 {
     background-image: url(../images/mobile/image-stand-out.jpg);
   }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  color: hsl(212deg, 27%, 19%);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  font-family: "Fraunces", serif;
+}
+
+.upper-case {
+  text-transform: uppercase;
+}
+
+#testemonials {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+#testemonials h3 {
+  font-family: "Fraunces", serif;
+  color: hsl(198deg, 62%, 26%);
+  letter-spacing: 5px;
+}
+
+.clients,
+.client {
+  display: flex;
+  flex-direction: column;
+}
+
+.clients {
+  gap: 2rem;
+  flex-direction: row;
+}
+
+.client {
+  gap: 3.1rem;
+}
+
+.client img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto;
+}
+
+.feedback {
+  font-family: "Barlow", sans-serif;
+  color: hsl(198deg, 62%, 26%);
+  line-height: 1.8rem;
+  font-weight: 600;
+}
+
+.author-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding-top: 0.7rem;
+  text-align: center;
+  align-items: center;
+}
+
+.name {
+  font-family: "Fraunces", serif;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.job {
+  font-family: "Barlow", sans-serif;
+  font-size: 0.8rem;
+  color: hsl(210deg, 4%, 67%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  color: hsl(212deg, 27%, 19%);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  font-family: "Fraunces", serif;
+}
+
+.upper-case {
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #8ed0c4;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 4rem 1.2rem;
+  min-height: 30vh;
+  text-align: center;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 3.1rem;
+}
+
+.footer-menu a {
+  color: hsl(168deg, 34%, 41%);
+  font-family: "Barlow", sans-serif;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  margin-top: 2.3rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
