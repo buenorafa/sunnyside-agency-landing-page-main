@@ -22,10 +22,10 @@ Nada muito avançado, apenas fizemos manipulação através do DOM para fazer o 
 
 ## Segunda etapa do Projeto
 
-. Uso de, pelo menos, um formulário, com diferentes de tipos de entradas de dados nos formulários (inputs); ✅
-. Uso de animação ou transição; ✅
-. Realizar posicionamento de, pelo menos, um elemento HTML (relative, absolute, fixed ou sticky); ✅
-. Estilização da página usando alguma biblioteca de componentes como o Bootstrap. ✅
+- Uso de, pelo menos, um formulário, com diferentes de tipos de entradas de dados nos formulários (inputs); ✅
+- Uso de animação ou transição; ✅
+- Realizar posicionamento de, pelo menos, um elemento HTML (relative, absolute, fixed ou sticky); ✅
+- Estilização da página usando alguma biblioteca de componentes como o Bootstrap. ✅
 
 Todos os requisitos necessários já tinham sido realizados na primeira etapa do projeto, com exceção do formulário e da biblioteca de estilo.
 
@@ -54,5 +54,3 @@ Mattheus Teixeira
 Matriícula: 20222370018
 
 ## 🔗 [Projeto Sunnyside](https://buenorafa.github.io/sunnyside-agency-landing-page-main/)
-# sunnyside-agency-parte-2
-# sunnyside-agency-parte-2
