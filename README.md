@@ -20,7 +20,30 @@ Para maior facilidade no trabalho colaborativo, utilizamos o SASS, que não é m
 
 Nada muito avançado, apenas fizemos manipulação através do DOM para fazer o famoso menu responsivo.
 
-## Projeto de Linguagens de Marcação - IFPB
+## Segunda etapa do Projeto
+
+. Uso de, pelo menos, um formulário, com diferentes de tipos de entradas de dados nos formulários (inputs); ✅
+. Uso de animação ou transição; ✅
+. Realizar posicionamento de, pelo menos, um elemento HTML (relative, absolute, fixed ou sticky); ✅
+. Estilização da página usando alguma biblioteca de componentes como o Bootstrap. ✅
+
+Todos os requisitos necessários já tinham sido realizados na primeira etapa do projeto, com exceção do formulário e da biblioteca de estilo.
+
+**Formulário e Bootstrap**
+
+Para cumprir com esses requisitos, adicionei uma nova seção **#contact** onde adicionei um formulário de contato e o estilizei com o uso da biblioteca Bootstrap. O formulário conta com um campo de texto, um de e-mail, uma text-area e um botão tipo submit.
+
+**Animação e Posicionamento**
+
+Estes requisitos já tinham sido cumpridos na primeira versão do projeto e podem ser encontrados:
+
+- Na #nav no modo responsivo, onde conta com um posicionamento absoluto e uma transição.
+
+![Nav](./images/readme/nav.png)
+
+- No #home, onde existe uma imagem de uma seta (#arrow-down) com posicionamento absoluto e uma animação de transformaçao no eixo y.
+
+![Animation](./images/readme/arrow-down-animation.gif)
 
 Discentes:
 
@@ -31,3 +54,5 @@ Mattheus Teixeira
 Matriícula: 20222370018
 
 ## 🔗 [Projeto Sunnyside](https://buenorafa.github.io/sunnyside-agency-landing-page-main/)
+# sunnyside-agency-parte-2
+# sunnyside-agency-parte-2

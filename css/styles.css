@@ -11,13 +11,22 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+  visibility: hidden;
+}
+
 body {
-  font-family: "Barlow", sans-serif;
+  font-family: "Barlow", sans-serif !important;
   color: hsl(212deg, 27%, 19%);
+  overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
+}
+a:hover {
   color: inherit;
 }
 
@@ -136,7 +145,7 @@ header nav a.contact-style:hover {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: calc(100vh - 3.7rem);
+  height: calc(100vh - 5.05rem);
 }
 #home .home-bg {
   position: absolute;
@@ -423,6 +432,14 @@ header nav a.contact-style:hover {
 }
 #video h2 {
   font-size: 2rem;
+}
+
+#contact {
+  background-color: hsl(51deg, 100%, 49%);
+}
+
+#form {
+  max-width: 30rem;
 }
 
 footer {
